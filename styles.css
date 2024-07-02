@@ -1,165 +1,229 @@
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-html, body{
+html, body {
     width: 100%;
-    height : 100%;
+    height: 100%;
 }
 
-main{
-    width : 100%;
-    height: 90vh;
+main {
+    width: 100%;
 }
 
-nav{
-    display : flex;
+nav {
+    display: flex;
     align-items: center;
     justify-content: flex-start;
-    position : fixed;
+    position: fixed;
     padding: 0 4vw;
-    width : 100%;
-    height : 10vh;
-    border-radius : 1vw;
+    width: 100%;
+    height: 10vh;
+    border-radius: 1vw;
     background-color: #6D350C;
-    color : #fff;
-    overflow : hidden;
+    color: #fff;
+    overflow: hidden;
+    z-index: 9999;
 }
 
-#navbar{
-    display : flex;
+#navbar {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    width : 100%;
-    height : 100%;
+    width: 100%;
+    height: 100%;
     list-style: none;
-    padding : 0 10vw;
+    padding: 0 10vw;
 }
 
-#navbar a{
+#navbar a {
     text-decoration: none;
-    color : #fff;
+    color: #fff;
     font-size: 1.2vw;
     font-weight: 500;
     font-family: "Plain Light";
-    cursor : pointer;
+    cursor: pointer;
 }
 
-#navbar a:hover{
-    color : rgb(224, 127, 16);
+#navbar a:hover {
+    color: rgb(224, 127, 16);
     font-size: 1.3vw;
-    transition : all 0.4s;
+    transition: all 0.4s;
 }
 
-#navbar li:hover{
-    color : rgb(224, 127, 16);
+#navbar li:hover {
+    color: rgb(224, 127, 16);
     font-size: 1.3vw;
-    transition : all 0.4s;
+    transition: all 0.4s;
 }
 
-button{
-    color : rgb(224, 127, 16);
-    padding : 1vw 1.2vw;
+button {
+    color: rgb(224, 127, 16);
+    padding: 1vw 1.2vw;
     font-size: 1vw;
     font-weight: 600;
     font-family: "Plain Light";
     border: none;
     background-color: transparent;
-    cursor : pointer;
+    cursor: pointer;
 }
 
-button:hover{
-    color:#111;
+button:hover {
+    color: #111;
     background-color: #fff;
     border: 1px solid #111;
     border-radius: 1vw;
     transition: all 0.3s;
 }
 
-#page1{
-    width : 100%;
-    height : 100%;
-    padding: 10vw;
+#page1 {
+    width: 100%;
+    padding-top: 20vh;
+    padding-bottom: 10vh; 
 }
 
-#top{
-    width : 100%;
-    height : 100%;
-    display : flex;
-    margin-bottom : 10vh;
+#top {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 10vh;
+    padding: 0 10vw;
 }
 
-#left-part{
-    width : 50%;
-    height : 100%;
+#left-part {
+    width: 50%;
+    height: 100%;
 }
 
-#left-part h5{
+#left-part h5 {
     font-size: 1.5vw;
     font-weight: 400;
-    font-family : "Plain Light";
+    font-family: "Plain Light";
 }
 
-#left-part h2{
+#left-part h2 {
     font-size: 2.5vw;
     font-weight: 600;
-    font-family : "Plain Light";
+    font-family: "Plain Light";
 }
 
-#left-part h4{
-    border-radius : 1vw;
-    border : 1px solid #111;
-    padding : 0.5vw 1vw;
+#left-part h4 {
+    border-radius: 1vw;
+    border: 1px solid #111;
+    padding: 0.5vw 1vw;
     font-size: 1.5vw;
     font-weight: 500;
-    font-family : "silk serif";
-    color : rgba(45, 45, 45, 0.918);
+    font-family: "silk serif";
+    color: rgba(45, 45, 45, 0.918);
 }
 
-.left-button > button{
+.left-button > button {
     margin-top: 4vh;
-    color : #fff;
+    color: #fff;
     background-color: #6D350C;
-    border-radius : 1vw;
-    border:none;
+    border-radius: 1vw;
+    border: none;
 }
 
-.left-button > button:hover{
+.left-button > button:hover {
     color: #6D350C;
     background-color: #fff;
     border: 1px solid #111;
 }
 
-.left-button > button:nth-child(2){
-    color : #6D350C;
-    background-color : #fff;
+.left-button > button:nth-child(2) {
+    color: #6D350C;
+    background-color: #fff;
     border-radius: 1vw;
-    border:none;
-    margin-left : 2vw;
+    border: none;
+    margin-left: 2vw;
+    border: 1px solid #111;
 }
 
-.left-button > button:nth-child(2):hover{
-    color : #fff;
+.left-button > button:nth-child(2):hover {
+    color: #fff;
     background-color: #6D350C;
 }
 
-#right-part{
+#right-part {
     width: 50%;
-    height : 100%;
+    height: 100%;
 }
 
-#right-image{
-    width : 90%;
-    height : 100%;
-    margin-left : 4vw;
-    background-image: url("https://plus.unsplash.com/premium_photo-1670076513880-f58e3c377903?q=80&w=1918&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+#right-image img{
+    width: 90%;
+    height: 100%;
+    margin-left: 4vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1vw;
 }
 
+#bottom {
+    width: 100%;
+    height: fit-content;
+    background-color: #FEEDD4;
+    padding: 3vw 0;
+}
 
+#bottom h5 {
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 400;
+    font-family: "Plain Light";
+    text-transform: uppercase;
+    color: #6D350C;
+}
 
+#bottom h3 {
+    padding-top: 1.5vw;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 700;
+    font-family: "Plain Light";
+}
+
+#bottom-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vw;
+}
+
+#bottom-div {
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 200;
+    font-family: "Plain Light";
+    background-color: #fff;
+    padding: 1.2vw;
+    border-radius: 1vw;
+}
+
+#bottom-div p {
+    font-size: 1.2vw;
+}
+
+#bottom-div h4 {
+    margin-top: 1vw;
+}
+
+#bottom-div > i {
+    background-color: rgb(209, 205, 205);
+    border-radius: 50%;
+    padding: 0.5vw;
+}
+
+#page2 {
+    width: 100%;
+    height: 100%;
+    background-color: #FEEDD4;
+}

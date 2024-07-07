@@ -3,6 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Plain Light";
+    user-select: none;
 }
 
 html, body {
@@ -12,6 +14,7 @@ html, body {
 
 main {
     width: 100%;
+    overflow : hidden;
 }
 
 nav {
@@ -44,7 +47,6 @@ nav {
     color: #fff;
     font-size: 1.2vw;
     font-weight: 500;
-    font-family: "Plain Light";
     cursor: pointer;
 }
 
@@ -65,7 +67,6 @@ button {
     padding: 1vw 1.2vw;
     font-size: 1vw;
     font-weight: 600;
-    font-family: "Plain Light";
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -83,6 +84,7 @@ button:hover {
     width: 100%;
     padding-top: 20vh;
     padding-bottom: 10vh; 
+    background-color: #FFF8EF;
 }
 
 #top {
@@ -101,13 +103,11 @@ button:hover {
 #left-part h5 {
     font-size: 1.5vw;
     font-weight: 400;
-    font-family: "Plain Light";
 }
 
 #left-part h2 {
     font-size: 2.5vw;
     font-weight: 600;
-    font-family: "Plain Light";
 }
 
 #left-part h4 {
@@ -174,7 +174,6 @@ button:hover {
     text-align: center;
     font-size: 2vw;
     font-weight: 400;
-    font-family: "Plain Light";
     text-transform: uppercase;
     color: #6D350C;
 }
@@ -184,7 +183,6 @@ button:hover {
     text-align: center;
     font-size: 2vw;
     font-weight: 700;
-    font-family: "Plain Light";
 }
 
 #bottom-container {
@@ -202,10 +200,10 @@ button:hover {
     text-align: center;
     font-size: 1.5vw;
     font-weight: 200;
-    font-family: "Plain Light";
     background-color: #fff;
     padding: 1.2vw;
     border-radius: 1vw;
+    cursor : pointer;
 }
 
 #bottom-div p {
@@ -225,5 +223,91 @@ button:hover {
 #page2 {
     width: 100%;
     height: 100%;
-    background-color: #FEEDD4;
+    background-color: #FFF8EF;
+    padding: 5vw 0;
 }
+
+#page2 h4{
+    text-align : center;
+    font-size : 2vw;
+    font-weight : 500;
+    text-transform: uppercase;
+    color: #6D350C;
+}
+
+#page2 h2{
+    text-align : center;
+    font-size : 3vw;
+    font-weight: 600;
+    padding-top: 2vw;
+}
+
+#box-container{
+    width : 100%;
+    height : fit-content;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw;
+}
+
+#box{
+    width : 20%;
+    height : 50%;
+    position: relative;
+    cursor : pointer;
+}
+
+#box img{
+    width : 100%;
+    height : 100%;
+    object-fit: cover;
+    border-radius: 1vw;
+    border : 0.5px solid #111;
+}
+
+#box h5{
+    width : 100%;
+    height : 100%;
+    background-color: #11111154;
+    padding-top : 8vw;
+    padding-left : 2vw;
+    font-size: 1.5vw;
+    font-weight: 700;
+    color : #fff;
+    border-radius: 1vw;
+    position : absolute;
+    top : 0;
+    text-align-last: left;
+    opacity : 0;
+}
+
+#box h5:hover{
+    opacity : 1;
+}
+
+#page3{
+    padding: 3vw;
+    background-color: #FFF8EF;
+    width: 100%;
+    height : 100%;
+}
+
+#page3 h4{
+    font-size: 2vw;
+    font-weight: 600;
+    color:#6D350C;
+}
+
+#page3 h2{
+    font-size: 2.5vw;
+    font-weight: 600;
+    padding-top: 1.5vw;
+}
+
+
+
+
+
+
+

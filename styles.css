@@ -673,6 +673,11 @@ footer{
         display: none;
     }
 
+
+    #navbar li button{
+        font-size: 2vw;
+    }
+
     #page1{
         padding-top: 12vh;
     }
@@ -684,7 +689,7 @@ footer{
     #left-part{
         width: 100%;
         height: 50%;
-        padding: 2vw;
+        padding: 1vw;
     }
 
     #left-part h5{
@@ -699,11 +704,118 @@ footer{
     }
 
     #left-part h4{
-        width: 50%
+        width: 80%;
+        font-size: 3vw;
+    }
+
+    #left-part button{
+        font-size: 2.5vw;
+        margin-bottom: 3vw;
     }
 
     #right-part{
         width: 100%;
     }
 
+    #bottom-container{
+        display:grid;
+    }
+
+    #bottom-div:nth-child(1){
+        width : 80%;
+        height: fit-content;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        font-size: 3vw;
+    }
+
+    #bottom-div:nth-child(2){
+        width : 80%;
+        height: fit-content;
+        grid-column: 2/2;
+        grid-row: 1/2;
+        font-size: 3vw;
+    }
+    #bottom-div:nth-child(3){
+        width : 80%;
+        height: fit-content;
+        grid-column: 1/2;
+        grid-row: 2/2;
+        font-size: 3vw;
+        margin-top:2vw;
+    }
+    #bottom-div:nth-child(4){
+        width : 80%;
+        height: fit-content;
+        grid-column: 2/2;
+        grid-row: 2/2;
+        font-size: 3vw;
+    }
+
+    #bottom-div p{
+        font-size: 2.5vw;
+        color: rgb(105, 103, 103);
+    }
+
+    #box-container{
+        display : grid;
+    }
+
+    #box:nth-child(1){
+        width : 80%;
+        height: fit-content;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #box:nth-child(2){
+        width : 80%;
+        height: fit-content;
+        grid-column: 2/2;
+        grid-row: 1/2;
+    }
+
+    #box:nth-child(3){
+        width : 80%;
+        height: fit-content;
+        grid-column: 1/2;
+        grid-row: 2/2;
+        margin-top: 1vw;
+    }
+
+    #box:nth-child(4){
+        width : 80%;
+        height: fit-content;
+        grid-column: 2/2;
+        grid-row: 2/2;
+        margin-top: 1vw;
+    }
+
+    #box h5{
+        font-size: 2.5vw;
+    }
+
+    #bottom h5{
+        font-size: 3vw;
+    }
+
+    #bottom h3{
+        font-size: 3.2vw;
+    }
+
+    #page2 h4{
+        font-size: 3vw;
+    }
+
+    #page2 h2{
+        font-size: 3.2vw;
+    }
+
+    #page3 h4{
+        font-size: 2.8vw;
+    }
+    
+    #page3 h2{
+        font-size: 3.2vw;
+    }
 }
